@@ -13,8 +13,8 @@ def play():
     print("welcome to rock piaper siciasor")
     uc= gucci()
     cc=icc()
-    print("u chose {uc}")
-    print("computer chose {cc}")
+    print(f"u chose {uc}")
+    print(f"computer chose {cc}")
     result=winner(uc,cc)
     print(result)
 
@@ -30,5 +30,5 @@ def winner(uc,cc):
     else:
         return "computer wins"
 
-if __name__=="__m__":
+if __name__=="__main__":
     play()
